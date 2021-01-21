@@ -48,6 +48,10 @@
         form input[type=text]:focus {
             outline: 0;
         }
+        div {
+            text-align: center;
+            margin: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -57,7 +61,11 @@
         <input type="text" name="emailtxt" placeholder="Seu email..." id="email">
         <input type="password" name="senha" placeholder="Sua senha..." id="password">
         <input type="submit" value="Enviar"/>
+        <div>
+            <a href="index.html"><img src="imagens/seta-direita.png" alt=""></a>
+        </div>
     </form>
+
     <script>
         var nome = document.getElementById('name')
         var email = document.getElementById('email')
